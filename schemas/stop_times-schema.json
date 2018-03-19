@@ -44,7 +44,6 @@
           "title": "Stop sequence",
           "description": "The stop_sequence field identifies the order of the stops for a particular trip. The values for stop_sequence must be non-negative integers",
           "type": "integer",
-          "pattern": "^(\+?\d+|0+)$",
           "constraints": {
             "required": true
           }
@@ -83,7 +82,6 @@
           "title": "Drop off type",
           "description": "When used in the stop_times.txt file, the shape_dist_traveled field positions a stop as a distance from the first shape point.",
           "type": "number",
-          "pattern": "^(\+?\d+|0+)$",
           "constraints": {
             "required": false
           }
