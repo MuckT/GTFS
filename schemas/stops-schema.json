@@ -117,7 +117,7 @@
 		{
 			"name":"wheelchair_boarding",
 			"title":"Wheelchair Boarding",
-			"description":"The wheelchair_boarding field identifies whether wheelchair boardings are possible from the specified stop, station, or station entrance. The field can have the following values: 0 - no accessibility information for the stop,1 - indicates that at least some vehicles at this stop can be boarded by a rider in a wheelchair,2 - wheelchair boarding is not possible at this stop",
+			"description":"The wheelchair_boarding field identifies whether wheelchair boardings are possible from the specified stop, station, or station entrance. The field can have the following values: 0 - no accessibility information for the stop,1 - indicates that at least some vehicles at this stop can be boarded by a rider in a wheelchair,2 - wheelchair boarding is not possible at this stop.",
 			"type":"integer",
 			"pattern": "([0-2]{1})|^$",
 			"constrains" : {
