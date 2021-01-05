@@ -1,6 +1,6 @@
 {
-	"fields": [
-	  {
+  "fields": [
+    {
       "name": "agency_id",
       "title": "Agency ID",
       "description": "The agency_id field is an ID that uniquely identifies a transit agency. A transit feed may represent data from more than one agency. The agency_id is dataset unique.",
@@ -10,7 +10,7 @@
         "required": false,
         "unique": true
       }
-	  },
+    },
     {
       "name": "agency_name",
       "title": "Agency name",
